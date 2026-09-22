@@ -1,7 +1,7 @@
 {
   "name": "qolor",
   "main": "./lib/qolor",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "An atom package to color your SQL queries!",
   "keywords": [
     "sql",
@@ -13,7 +13,7 @@
     "joins",
     "syntax"
   ],
-  "repository": "https://github.com/davidlgoldberg/qolor",
+  "repository": "https://github.com/atomeditor-io/qolor",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

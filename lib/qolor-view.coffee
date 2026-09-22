@@ -270,6 +270,5 @@ class QolorView extends HTMLElement
         # START:
         traverser [tablesTraverser, aliasesTraverser]
 
-module.exports = document.registerElement('qolor-view',
-                                          prototype: QolorView.prototype,
-                                          extends: 'div')
+module.exports = (require './custom-element').define('qolor-view',
+                                                     QolorView.prototype)
